@@ -1,8 +1,7 @@
-decimal = 103
-//prompt("What is your decimal number?");
+decimal = prompt("What is your decimal number?");
 
 firstValue = Math.floor(decimal/16);
-remainder1 = decimal - (firstValue*decimal);
+remainder1 = decimal - (firstValue*16);
 remainder2 = firstValue%16;
 
 if (remainder1 == 10){
@@ -58,4 +57,4 @@ if (remainder2 == 15){
 
 
 
-console.log(`Your hexadecimal is ${remainder2,remainder1}`);  
+console.log(`Your hexadecimal is ${remainder2}${remainder1}`);  
