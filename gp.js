@@ -1,5 +1,24 @@
 decimal = prompt("What is your decimal number?");
 
+//Binary
+p1 = decimal/2;
+p2 = p1/2;
+p3 = p2/2;
+p4 = p3/2;
+p5 = p4/2;
+p6 = p5/2;
+p7 = p6/2;
+p8 = p7/2;
+lp = p8/2;
+
+a1 = decimal%2
+a2 = p1%2
+
+
+
+
+
+//Hexadecimal
 firstValue = Math.floor(decimal/16);
 remainder1 = decimal - (firstValue*16);
 remainder2 = firstValue%16;
