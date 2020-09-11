@@ -1,18 +1,25 @@
-decimal = prompt("What is your decimal number?");
+decimal = 103 //prompt("What is your decimal number?");
 
 //Binary
-p1 = decimal/2;
-p2 = p1/2;
-p3 = p2/2;
-p4 = p3/2;
-p5 = p4/2;
-p6 = p5/2;
-p7 = p6/2;
-p8 = p7/2;
-lp = p8/2;
+p1 = Math.floor(decimal/2);
+p2 = Math.floor(p1/2);
+p3 = Math.floor(p2/2);
+p4 = Math.floor(p3/2);
+p5 = Math.floor(p4/2);
+p6 = Math.floor(p5/2);
+p7 = Math.floor(p6/2);
+p8 = Math.floor(p7/2);
+lp = Math.floor(p8/2);
 
 a1 = decimal%2
 a2 = p1%2
+a3 = p2%2
+a4 = p3%2
+a5 = p4%2
+a6 = p5%2
+a7 = p6%2
+a8 = p7%2
+a9 = p8%2
 
 
 
@@ -77,3 +84,4 @@ if (remainder2 == 15){
 
 
 console.log(`Your hexadecimal is ${remainder2}${remainder1}`);  
+console.log(`${a8}${a7}${a6}${a5} ${a4}${a3}${a2}${a1}`);
