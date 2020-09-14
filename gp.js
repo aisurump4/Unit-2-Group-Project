@@ -1,4 +1,4 @@
-decimal = 103 //prompt("What is your decimal number?");
+decimal = prompt("What is your decimal number?");
 
 //Binary
 p1 = Math.floor(decimal/2);
@@ -83,5 +83,6 @@ if (remainder2 == 15){
 
 
 
-console.log(`Your hexadecimal is ${remainder2}${remainder1}`);  
-console.log(`${a8}${a7}${a6}${a5} ${a4}${a3}${a2}${a1}`);
+ 
+console.log(`The binary of ${decimal} is ${a8}${a7}${a6}${a5} ${a4}${a3}${a2}${a1}`);
+console.log(`The hexadecimal of ${decimal} is ${remainder2}${remainder1}`);
